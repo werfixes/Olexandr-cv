@@ -3,30 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Olexandr CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <td>
-               <img src="photo_2025-03-05_22-13-22.jpg" width="100" alt="blyat">
-            </td>
-            <td>
+    <div class="container">
+    <div class ="profile">
+                <img src="photo_2025-03-05_22-13-22.jpg" class="profile-photo" alt="Profile photo of Diachenko Olexandr">
+
                 <h1>Diachenko Olexandr</h1>
-                <p><em>I am studying html in <strong>solo</strong></em></p>
-            </td>
+                <p>I am learning frontend development on my own</p>
+
+            <h4>Social Links</h4>
+            <a href="https://github.com/werfixes" target="_blank">GitHub</a>
+
+    </div>
+    <div class="card">
+    <h2>Skills</h2>
+<table>
+    <tbody>
+        <tr>
+            <td >HTML</td>
+            <td >CSS</td>
+            <td >JavaScript</td>
         </tr>
-    </table>
-    <hr size="3" noshade color="black">
-
-    <h2>Social Links</h2>
-    <ul type="square">
-        <li><a href="https://github.com/werfixes" target="_blank">GitHub</a></li>
-    </ul>
-
-    <hr size="3" noshade color="black">
-
+    </tbody>
+</table>
+</div>
+<div class="card">
     <h2>Experience</h2>
-    <table>
+    <table class="experience-table">
         <thead>
             <tr>
                 <th>Position</th>
@@ -36,17 +41,20 @@
         </thead>
         <tbody>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
             </tr>
         </tbody>
     </table>
+    </div>
 
-    <hr size="3" noshade color="black">
+   
 
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:sashadiachenko6@gmail.com">sashadiachenko6@gmail.com</a></p>
     <p>Phone: <a href="tel:+380982242166">+380982242166</a></p>
+    
+    </div>
 </body>
 </html>
